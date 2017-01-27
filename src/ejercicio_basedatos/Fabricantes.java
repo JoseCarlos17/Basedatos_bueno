@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
- *
+ *Se almacena únicamente un ResulSet en esta Clase.
  * @author Jose Carlos
  */
 public class Fabricantes extends javax.swing.JFrame {

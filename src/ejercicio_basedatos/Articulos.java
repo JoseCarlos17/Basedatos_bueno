@@ -16,7 +16,7 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.JOptionPane;
 
 /**
- *
+ *La clase principal de Artículos. Almacena los ResulSet y la conexión.
  * @author Jose Carlos
  */
 public class Articulos extends javax.swing.JFrame {
@@ -26,6 +26,8 @@ public class Articulos extends javax.swing.JFrame {
        static public ResultSet r3;
        static public Connection connection;
     /**
+     *En el método Artículos realizamos la conexión con la base de datos. También hacemos que los botones Aceptar y Cancelar no estén visibles.
+     *Realizamos una consulta que nos devuelve todos los campos de la Tabla Artículos. 
      * Creates new form Articulos
      */
     public Articulos() throws SQLException {
